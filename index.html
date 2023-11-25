@@ -1,22 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <title>Color Match Game</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Ball</title> `
+  <link rel="stylesheet" href="indexes.css">
 </head>
-<audio loop autoplay>
-    <source src="frontend ca 1 audio 1.mp3" type="audio/mp3">
-</audio>
-<section>
 <body>
-  
-        <div class="rectangle"></div>
-        <div class="ball" id="ball"></div>
-        <div class="score" id="score">Score: 0</div>
-   
-</section>
-    <script src="index.js"></script>
+  <section>
+    <audio loop autoplay>
+      <source src="./frontend ca 1 audio 1.mp3" type="audio/mp3">
+  </audio>
+    <div class="form-box">
+      <div class="form-value">
+        <form id="userForm">
+          <h1>Colour Ball</h1>
+          <h2><label for="name">Name</label></h2>
+          <div class="inputbox">
+            <input type="text" id="name" placeholder="Enter Your Name">
+          </div>
+          <h2><label for="username">User Name</label></h2>
+          <div class="inputbox">
+            <input type="text" id="username" placeholder="Enter Your User Name">
+          </div>
+         <button type="submit" id="play-button">  Play</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <script src="indexes.js"></script>
 </body>
 </html>
