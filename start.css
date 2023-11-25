@@ -37,12 +37,14 @@ section {
     .rectangle {
         width: 60%;
         height: 120px;
-        margin-top: 20%;
+        margin-top: 50%;
+margin-bottom: 20%;
     }
 
     .ball {
         width: 30px;
         height: 30px;
+        transition: top 0.5s ease-in-out;
     }
 
     .score {
