@@ -35,18 +35,18 @@ section {
 } 
 @media (max-width: 600px) {
     .rectangle {
-        width: 40%; /* Adjust width for smaller screens */
-        height: 100px; /* Adjust height for smaller screens */
-        margin-top: 20%; /* Adjust margin for smaller screens */
+        width: 40%; 
+        height: 100px; 
+        margin-top: 20%; 
     }
 
     .ball {
-        width: 20%; /* Adjust width for smaller screens */
-        height: 20%; /* Adjust height for smaller screens */
+        width: 20%; 
+        height: 20%;
     }
 
     .score {
-        font-size: 14px; /* Adjust font size for smaller screens */
+        font-size: 14px; 
     }
 
     @keyframes bounce {

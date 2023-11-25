@@ -14,10 +14,3 @@ const namevalue = document.getElementById("name").value
         alert("Please enter your name and nickname");
     }
 };
-
-
-// var actname = document.getElementById("name").value;
-// var username = document.getElementById("username").value; 
-
-// localStorage.setItem("name", actname);
-// localStorage.setItem("username", username);
