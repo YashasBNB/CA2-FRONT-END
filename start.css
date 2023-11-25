@@ -33,29 +33,22 @@ section {
     font-size: 18px;
     color: white;
 } 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .rectangle {
-        width: 40%; 
+        width: 40%;
         height: 100px; 
         margin-top: 20%; 
     }
 
     .ball {
         width: 20%; 
-        height: 20%;
+        height: 20%; 
     }
 
     .score {
         font-size: 14px; 
     }
 
-    @keyframes bounce {
-        0%, 100% {
-            transform: translateY(0);
-        }
-        50% {
-            transform: translateY(calc(-100%));
-        }
-    }
+   
 }
 
